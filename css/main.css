@@ -1,0 +1,275 @@
+/*
+font-family: 'Montserrat', sans-serif;
+font-family: 'MOntserrat', sans-serif;
+*/
+
+*, *::before, *::after {
+     -moz-box-sizing: border-box;
+     -webkit-box-sizing: border-box;
+     box-sizing: border-box;
+ } 
+
+html {
+    height: 100; /* HTML takes up 100% of the browser window */
+    font-size: 100%;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+h1, h2, h4{
+    text-transform: uppercase;
+    font-weight: 300;
+    text-align: center;
+
+}
+
+h1, h2 {
+    text-shadow: 2px 2px #333333;
+    color: #ffffff;
+}
+
+h1 {
+    font-size: 5rem;
+}
+
+h2 {
+    font-size: 4rem;
+}
+
+h3 {
+    font-size:2.2rem;
+    font-weight: 300;
+}
+
+h4{
+    font-size: 3rem;
+    font-weight: 300;
+    color: #333333;
+}
+
+h5{
+    font-size: 1.5rem;
+    font-weight: 300;
+
+}
+
+p {
+    color: #333333;
+    font-weight: 300;
+    text-align: left;
+    line-height: 150%;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+.navbar {
+    position: relative;
+    background-color: #ffffff;
+    padding:1.2rem;
+    overflow: auto;
+    z-index: 1;
+}
+
+.navbar .logo {
+    /* background-color: beige; */
+}
+
+.navbar .links-container {  
+    display: table;
+    cursor: pointer;
+    text-transform: uppercase;
+    text-align: right;
+    font-size: 0.8rem;
+    font-weight: 300;
+    color: black;
+   /* background-color: red; */
+    width: 100%;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;  
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.hero-box {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../images/Home_indigo2.jpg);
+    background-color: blue;
+    background-repeat: no-repeat;
+    background-position: center right;
+    background-size: cover;
+    overflow: auto;
+    padding-top: 20vh;
+}
+
+.sankaku {
+    width: 0;
+    height: 0;
+    border: 40px solid transparent;
+    border-top: 40px solid #ffffff;
+    margin: 0 auto;
+
+}
+
+.intro-container {
+    padding: 2rem 0;
+    background-color: #ffffff;
+}
+
+.intro {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.intro-txt {
+    text-align: center;
+}
+
+/* button*/
+.btn {
+    border-radius: 8px;
+	color: #ffffff;
+	font-weight: 300;
+	text-decoration: none;
+	padding:10px 40px;
+	background: #0F5474;
+	border: 2px solid #0F5474;
+	box-shadow: 0px 2px 0px 0px #333333;
+    margin: 0 auto;
+	}
+
+/* projects */
+.project-title {
+    /*background-color: red;*/
+    position: relative;
+    width: 100vw;
+    padding: 1rem 0;
+    background-image: linear-gradient(45deg, #E6E7E8 0%, #D1D3D4 100%);
+}
+
+.project-box {
+}
+
+.project-box .project-one {
+    position: relative;
+    width: 100vw;
+    min-height: 400px;
+    background-image: url(../images/proj_pic_gsd.png);
+    background-color: blue;
+    background-repeat: no-repeat;
+    background-position: center right;
+    background-size: cover;
+    overflow: auto;
+}
+
+.project-title-one {
+    position: relative;
+    margin: 40px 0;
+    padding: 15px 0; 
+    background-color: rgba(247, 179, 52, 0.75);
+    text-align: left;
+    color: white;
+}
+
+.project-box .project-two {
+    position: relative;
+    width: 100vw;
+    min-height: 400px;
+    background-image: url(../images/proj_pic_k9c.png);
+    background-color: blue;
+    background-repeat: no-repeat;
+    background-position: center right;
+    background-size: cover;
+    overflow: auto;
+}
+
+.project-title-two {
+    position: relative;
+    margin: 40px 0;
+    padding: 15px 0; 
+    background-color: rgba(112, 171, 229, 0.75);
+    text-align: left;
+    color: white;
+}
+
+
+.project-box .project-three {
+    position: relative;
+    width: 100vw;
+    min-height: 400px;
+    background-image: url(../images/proj_pic_blocbox.png);
+    background-color: blue;
+    background-repeat: no-repeat;
+    background-position: center right;
+    background-size: cover;
+    overflow: auto;
+}
+
+.project-title-three {
+    position: relative;
+    margin: 40px 0;
+    padding: 15px 0; 
+    background-color: rgba(51, 51, 51, 0.75);
+    text-align: left;
+   color: white;
+}
+
+.project-box .project-four {
+    position: relative;
+    width: 100vw;
+    min-height: 400px;
+    background-image: url(../images/proj_pic_blocjams.png);
+    background-color: blue;
+    background-repeat: no-repeat;
+    background-position: center right;
+    background-size: cover;
+    overflow: auto;
+}
+
+.project-title-four {
+    position: relative;
+    margin: 40px 0;
+    padding: 15px 0; 
+    background-color: rgba(111, 89, 126, 0.75);
+    text-align: left;
+        color: white;
+}
+
+.elv-container {
+    padding: 2rem 0;
+    background-color: #ffffff;
+}
+
+.elv {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.elv-txt {
+    text-align: center;
+}
+
+.moreinfo {
+    position: relative;
+    padding:1.2rem;
+    overflow: auto;
+    z-index: 1;
+}
+
+.moreinfo .work {
+    background-color: blue;
+}
+
+.moreinfo .contact {
+    background-color: red;
+}
