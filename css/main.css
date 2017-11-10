@@ -21,16 +21,17 @@ h1, h2, h4{
     text-transform: uppercase;
     font-weight: 300;
     text-align: center;
-
 }
 
 h1, h2 {
     text-shadow: 2px 2px #333333;
     color: #ffffff;
+    margin: 0;
 }
 
 h1 {
     font-size: 5rem;
+    padding-bottom: 20%;
 }
 
 h2 {
@@ -38,14 +39,17 @@ h2 {
 }
 
 h3 {
-    font-size:2.2rem;
+    font-size:2rem;
     font-weight: 300;
+    margin:0 0 0 5%;
+    text-transform:capitalize;
 }
 
 h4{
     font-size: 3rem;
     font-weight: 300;
     color: #333333;
+    margin: 0;
 }
 
 h5{
@@ -54,15 +58,69 @@ h5{
 
 }
 
+h6{
+    font-size: 0.8rem;
+    font-weight: 300;
+    margin: 20px 0;
+    color: #ffffff;
+}
+
+.section-title {
+    color: #0F5474;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.about-mains {
+    position: relative;
+    width: 100vw;
+    min-height: 200px;
+    padding: 1rem 0;
+    background-color: #ffffff;
+}
+
+.about-mains-gray {
+    position: relative;
+    width: 100vw;
+    min-height: 200px;
+    padding: 1rem 0;
+    background-image: linear-gradient(170deg, #E6E7E8 50%, #ffffff 100%);
+}
+
+.about-txt {
+    padding: 3%;
+}
+
+.about-pic {
+    background-image: linear-gradient(45deg, #E6E7E8 0%, #D1D3D4 100%);
+}
+
+.about-pic-two {
+    background-image: linear-gradient(45deg, #D1D3D4 0%, #E6E7E8 100%);
+}
+
 p {
     color: #333333;
     font-weight: 300;
     text-align: left;
     line-height: 150%;
 }
+a {
+    color: #333333;
+}
 
 a:link {
     text-decoration: none;
+}
+
+a:hover {
+    font-weight: bold;
+    color: #F7B334;
+}
+
+.active{
+    font-weight: 400;
+    color: #0F5474;    
 }
 
 .navbar {
@@ -85,13 +143,15 @@ a:link {
     font-size: 0.8rem;
     font-weight: 300;
     color: black;
-   /* background-color: red; */
+    /*background-color: red; */
     width: 100%;
 }
 
 nav ul {
     list-style-type: none;
-    padding: 0;  
+    margin: 0;
+    padding: 0;
+    color: black;
 }
 
 nav ul li {
@@ -104,7 +164,7 @@ nav ul li {
     width: 100vw;
     height: 100vh;
     background-image: url(../images/Home_indigo2.jpg);
-    background-color: blue;
+    /*background-color: blue;*/
     background-repeat: no-repeat;
     background-position: center right;
     background-size: cover;
@@ -112,13 +172,27 @@ nav ul li {
     padding-top: 20vh;
 }
 
+@keyframes MoveUpDown {
+  0% {
+    bottom: 0%;
+  }
+  50% {
+    bottom: 5%;
+  }
+  100% {
+    bottom: 0%;
+  }
+}
+
 .sankaku {
     width: 0;
     height: 0;
     border: 40px solid transparent;
     border-top: 40px solid #ffffff;
-    margin: 0 auto;
-
+    margin: auto;
+    position: relative;
+    bottom: 0%;
+    animation: MoveUpDown 2.2s linear infinite;
 }
 
 .intro-container {
@@ -146,6 +220,8 @@ nav ul li {
 	border: 2px solid #0F5474;
 	box-shadow: 0px 2px 0px 0px #333333;
     margin: 0 auto;
+    text-transform: uppercase;
+    min-width: 300px;
 	}
 
 /* projects */
@@ -179,6 +255,7 @@ nav ul li {
     background-color: rgba(247, 179, 52, 0.75);
     text-align: left;
     color: white;
+    ;
 }
 
 .project-box .project-two {
@@ -252,24 +329,55 @@ nav ul li {
 
 .elv {
     text-align: center;
-    margin: 0 auto;
+    margin: 0 auto;s
 }
 
 .elv-txt {
     text-align: center;
 }
 
-.moreinfo {
+.two-sec-title {
+    margin: 0 0 30px;
+}
+
+.row .work {
+    background-image: linear-gradient(160deg, #E6E7E8 0%, #D1D3D4 100%);
+    min-height: 200px;
+    padding: 30px 0;
+    text-align: center;
+}
+
+.row .contact {
+    background-image: linear-gradient(160deg, #E6E7E8 0%, #D1D3D4 100%);
+    min-height: 200px;
+    padding: 30px 0;
+    text-align: center;
+}
+
+.myfooter {
     position: relative;
+    background-color: #333333;
     padding:1.2rem;
     overflow: auto;
     z-index: 1;
 }
 
-.moreinfo .work {
-    background-color: blue;
+.fa {
+    color: white;
 }
 
-.moreinfo .contact {
-    background-color: red;
+.row .mylinks {
+    text-align: right;
+    font-size: 2rem;
+}
+
+.row ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.row ul li {
+    display: inline-block;
+    margin: 0 10px;
 }

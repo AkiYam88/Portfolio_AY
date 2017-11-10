@@ -1,0 +1,176 @@
+
+
+.portfolio-box {
+    position: relative;
+    min-height: 200px;
+    background-image: url(../images/Indigo_short.jpg) ;
+   /* background-image: linear-gradient(0deg, #94CBD1 0%, #E6E7E8 100%);*/
+    background-repeat: no-repeat;
+    background-position: center right;
+    background-size: cover;
+    overflow: auto;
+    padding: 5% 0;
+    z-index: 1;
+}
+
+/*uxui*/
+
+.project-box-p .project-one {
+    position: relative;
+    width: 50vw;
+    min-height: 400px;
+    background-image: url(../images/proj_pic_gsd.png);
+    background-color: blue;
+    background-repeat: no-repeat;
+    background-position: center right;
+    background-size: cover;
+    overflow: auto;
+}
+
+.project-title-one {
+    position: relative;
+    margin: 40px 0;
+    padding: 15px 0; 
+    background-color: rgba(247, 179, 52, 0.75);
+    text-align: left;
+    color: white;
+    ;
+}
+
+.project-box-p .project-two {
+    position: relative;
+    width: 50vw;
+    min-height: 400px;
+    background-image: url(../images/proj_pic_k9c.png);
+    background-color: blue;
+    background-repeat: no-repeat;
+    background-position: center right;
+    background-size: cover;
+    overflow: auto;
+}
+
+.project-title-two {
+    position: relative;
+    margin: 40px 0;
+    padding: 15px 0; 
+    background-color: rgba(112, 171, 229, 0.75);
+    text-align: left;
+    color: white;
+}
+
+
+.project-box-p .project-three {
+    position: relative;
+    width: 50vw;
+    min-height: 400px;
+    background-image: url(../images/proj_pic_blocbox.png);
+    background-color: blue;
+    background-repeat: no-repeat;
+    background-position: center right;
+    background-size: cover;
+    overflow: auto;
+}
+
+.project-title-three {
+    position: relative;
+    margin: 40px 0;
+    padding: 15px 0; 
+    background-color: rgba(51, 51, 51, 0.75);
+    text-align: left;
+   color: white;
+}
+
+.project-box-p .project-four {
+    position: relative;
+    width: 50vw;
+    min-height: 400px;
+    background-image: url(../images/proj_pic_blocjams.png);
+    background-color: blue;
+    background-repeat: no-repeat;
+    background-position: center right;
+    background-size: cover;
+    overflow: auto;
+}
+
+.project-title-four {
+    position: relative;
+    margin: 40px 0;
+    padding: 15px 0; 
+    background-color: rgba(111, 89, 126, 0.75);
+    text-align: left;
+        color: white;
+}
+
+/*Prints*/
+.project-box-p .project-five{
+    position: relative;
+    width: 50vw;
+    min-height: 400px;
+    /*background-image: url(../images/proj_pic_gsd.png);*/
+    background-color: blue;
+    background-repeat: no-repeat;
+    background-position: center right;
+    background-size: cover;
+    overflow: auto;
+}
+
+.project-box .project-six {
+    position: relative;
+    width: 100vw;
+    min-height: 400px;
+    background-image: url(../images/proj_pic_k9c.png);
+    background-color: blue;
+    background-repeat: no-repeat;
+    background-position: center right;
+    background-size: cover;
+    overflow: auto;
+}
+
+.project-box .project-seven {
+    position: relative;
+    width: 100vw;
+    min-height: 400px;
+    /*background-image: url(../images/proj_pic_k9c.png);*/
+    background-color: darkseagreen;
+    background-repeat: no-repeat;
+    background-position: center right;
+    background-size: cover;
+    overflow: auto;
+}
+
+
+.project-box .project-eight {
+    position: relative;
+    width: 100vw;
+    min-height: 400px;
+    /*background-image: url(../images/proj_pic_k9c.png);*/
+    background-color: papayawhip;
+    background-repeat: no-repeat;
+    background-position: center right;
+    background-size: cover;
+    overflow: auto;
+}
+
+.col-centered{
+    float: none;
+    margin: 0 auto;
+}
+
+.formtitle {
+    margin: 20px 0 2px;
+    font-size: 1.2rem;
+}
+
+.formfields {
+    width: 100%;
+}
+
+.content-btn{
+margin-top: 5%;
+text-align: center;
+}
+
+.contact-container {
+    padding: 2rem 0;
+    background-image: linear-gradient(45deg, #E6E7E8 0%, #D1D3D4 100%);
+}

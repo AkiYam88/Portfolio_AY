@@ -1,0 +1,76 @@
+.hero-gsrnc-container {
+    position: relative;
+    min-height: 700px;
+    background-image: linear-gradient(135deg, #FCDA64 0%, #F7B334 100%);
+    background-repeat: no-repeat;
+    background-position: center right;
+    background-size: cover;
+    overflow: auto;
+    padding: 5% 0;
+    z-index: 1;
+}
+
+.hero-gsrnc-box {
+    min-height: 650px;
+    background-image: url(../images/cs_gsrnc_hero.png);
+    background-repeat: no-repeat;
+    background-position: bottom center;
+}
+
+.col-md-10{
+    position: center;
+    overflow: auto;
+
+}
+
+after-ss{
+    position: relative;
+    min-height: 700px;
+    background-image: linear-gradient(45deg, #E6E7E8 0%, #D1D3D4 100%);
+    background-repeat: no-repeat;
+    background-position: center right;
+    background-size: cover;
+    overflow: auto;
+    padding: 5% 0;
+    z-index: 1;
+}
+
+.contact-container-cs {
+    padding: 2rem 0;
+    background-color: #ffffff;
+    /*background-image: linear-gradient(45deg, #E6E7E8 0%, #D1D3D4 100%); */
+}
+
+.cs-bottom-nav{
+    padding: 2% 0 0;
+}
+
+.cs-text{
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.contact-cs-text{
+        text-transform: uppercase;
+}
+
+.cs_gsrnc_swot{
+        min-height: 300px;
+    background-image: url(../images/cs_gsrnc_swot.png);
+    background-repeat: no-repeat;
+    background-position: bottom center;
+}
+
+.cs_gsrnc_personas{
+        min-height: 300px;
+    background-image: url(../images/cs_gsrnc_personas.png);
+    background-repeat: no-repeat;
+    background-position: bottom center;
+}
+
+.cs_gsrnc_branding{
+        min-height: 450px;
+    background-image: url(../images/cs_gsrnc_branding_combined.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}

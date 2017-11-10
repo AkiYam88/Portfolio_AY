@@ -1,0 +1,65 @@
+.about-intro {
+    position: relative;
+    min-height: 600px;
+    background-image: url(../images/Contact_indigo.jpg) ;
+    /*background-color: blue;*/
+    background-repeat: no-repeat;
+    background-position: center right;
+    background-size: cover;
+    overflow: auto;
+    padding-top: 5%;
+    z-index: 1;
+}
+
+.about-columns{
+    margin-left:1.5%;
+}
+
+.about-title {
+    margin: 0 0 20px;
+}
+
+.about-left {
+    margin: 50px 0 30px;
+    font-style: italic;
+}
+
+.about-sm {
+    margin: 5px 0 5px;
+    font-size: 1.2rem;
+}
+
+.about-lg {
+    float: none;
+    margin: 0;
+    font-weight: 400;
+}
+
+
+#cf {
+    position:relative;
+    height:400px;
+    width:400px;
+    margin: 0 auto;
+}
+
+#cf img {
+  position:absolute;
+  left:0;
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+}
+
+#cf img.top:hover {
+  opacity:0;
+}
+
+
+.row .about-btns {
+    background-color: #ffffff;
+    min-height: 100px;
+    padding: 20px 0 50px;
+    text-align: center;
+}

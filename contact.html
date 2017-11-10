@@ -5,51 +5,77 @@
         <!--Meta -->
         <meta name="viewport" content="width=device-width, initial-scale=1">
         
-        <!-- CSS -->
-        <link rel="stylesheet" href="/styles/normalize.css">
-        <link rel="stylesheet" href="/styles/main.css">
+<!-- CSS -->
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i" rel="stylesheet">
+        <link rel="stylesheet" href="css/bootstrap.min.css">  
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/font-awesome.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/contact.css">
+        <link rel="stylesheet" href="css/animate.css">
     </head>
     
-    <body>
-        <!-- Navigation Bar -->
-    <nav class="stick">
-      <img src="" alt="">
-      <ul>
-        <li><a href="#">Projects</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Contact</a></li>
-      </ul>
-    </nav>       
-        
-        <!-- Main -->
-    <section class="contactform">
+<body>
+<!-- Navigation Bar -->
+        <nav class="navbar">
+        <div class="col-lg-6 logo">
+        <a href="index.html">
+            <img src="images/logo_blk.png" alt="Aki Portfolio Logo">
+        </a> 
+        </div>
+        <div class="col-lg-6 links-container">
+            <ul>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html"  class="active">Contact</a></li>
+            </ul>
+        </div>
+    </nav>     
+<!-- Intro -->
+<section class="contact-box">
+    <section class="contact-title">
+    <h4>GET IN TOUCH</h4>
+        <p class="intro-txt">I hope you liked what you’ve seen.
+If you’ve got a project we can work with, <br>or something funny, hilarious, or brililiant to share - I’d like to hear from you.<br>Cheers!
+        </p> 
+</section>
+<!-- Main-->
+<section clas="row">
+<!-- Form -->       
+    <section class="contactform col-lg-8 col-centered">
+            <form action="https://getsimpleform.com/messages?form_api_token=f18a3a2315fa28a9cab7ec9bcea44c26" method="post">
+<!-- the redirect_to is optional, the form will redirect to the referrer on submission -->
+            <input type='hidden' name='redirect_to' value='<the complete return url e.g. http://fooey.com/thank-you.html>' />
 
-        <form action="https://getsimpleform.com/messages?form_api_token=f18a3a2315fa28a9cab7ec9bcea44c26" method="post">
-  <!-- the redirect_to is optional, the form will redirect to the referrer on submission -->
-  <input type='hidden' name='redirect_to' value='<the complete return url e.g. http://fooey.com/thank-you.html>' />
-  <!-- all your input fields here.... -->
-    <h1>GET IN TOUCH</h1>
-    <p>If you like my work, please feel free to get in touch anytime.</p>
-    <h4>Your Name:</h4>
-  <input type='text' name='Name' size='50'/>
-    <h4>Your Email:</h4>
-      <input type='text' name='Email' size='50'/>
-    <h4>Your Message Here:</h4>
-          <input type='paragraph' name='Message' value='About a project we can work, or coffee, or dogs...' style='height:100px; width:600px'/>
+     
+<!-- all your input fields here.... -->
+    <p class="formtitle">Your Name:</p>
+        <input type='text' name='Name' class="formfields"/>
+    <p class="formtitle">Your Email:</p>
+        <input type='text' name='Email' class="formfields"/>
+    <p class="formtitle">Your Message Here:</p>
+        <input type='text' cols='50' rows='20' name='Message' value='About a project we can work, or coffee, or dogs...' style='height:100px' class="formfields"/>
     <br>
-  <input type='submit' value='SEND MESSAGE' />
-</form>
-        
+                <section class="content-btn">
+  <input type='submit' value='SEND MESSAGE' class='btn'/>
+                    </section>
+            </form>   
     </section>
+        </section>
+</section>
+<!-- Footer Section -->
+<footer class="myfooter row">
+    <div class="col-lg-6 mycopyright">
+        <h6>&copy; 2017 Akiko Yamada |   UX/UI Designer | All Rights Reserved</h6>
+    </div>
+    <div class="col-lg-6">
+        <ul class="mylinks">
+            <li><a href="contact.html"><i class="fa fa-envelope-o"></i></a></li>
+            <li><a href="#"><i class="fa fa-linkedin-square"></i></a></li>
+            <li><a href="#"><i class="fa fa-github-square"></i></a></li>
+        </ul>
+    </div>
 
-        <!-- Footer Section -->
-    <footer>
-      <ul>
-        <li><a href="#">Email</a></li>
-        <li><a href="#">Twitter</a></li>
-        <li><a href="#">LinkedIn</a></li>
-      </ul>
-    </footer>
-        
-    </body>
+</footer>    
+</body>
 </html>
