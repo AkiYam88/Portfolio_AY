@@ -2,15 +2,15 @@
 
 .contact-box {
     position: relative;
-    min-height: 700px;
+    height: 60vh;
     background-image: url(../images/Contact_indigo.jpg) ;
     /*background-color: blue;*/
     background-repeat: no-repeat;
     background-position: center right;
     background-size: cover;
     overflow: auto;
-    padding-top: 5%;
-    z-index: 1;
+    padding-top: 10vh;
+    z-index: auto;
 }
 
 .col-centered{

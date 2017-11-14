@@ -1,18 +1,19 @@
 .about-intro {
     position: relative;
-    min-height: 600px;
+    min-height: 700px;
+    width: 100vw;
     background-image: url(../images/Contact_indigo.jpg) ;
     /*background-color: blue;*/
     background-repeat: no-repeat;
     background-position: center right;
     background-size: cover;
     overflow: auto;
-    padding-top: 5%;
-    z-index: 1;
+    padding: 10% 3% 0;
+    z-index: auto;
 }
 
 .about-columns{
-    margin-left:1.5%;
+    margin: 0;
 }
 
 .about-title {
@@ -20,7 +21,7 @@
 }
 
 .about-left {
-    margin: 50px 0 30px;
+    margin: 100px 0 0px;
     font-style: italic;
 }
 
@@ -40,7 +41,7 @@
     position:relative;
     height:400px;
     width:400px;
-    margin: 0 auto;
+    margin: 0 0;
 }
 
 #cf img {

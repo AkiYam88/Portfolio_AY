@@ -6,8 +6,8 @@
     background-position: center right;
     background-size: cover;
     overflow: auto;
-    padding: 5% 0;
-    z-index: 1;
+    padding: 10% 0 3%;
+    z-index: auto;
 }
 
 .hero-gsrnc-box {

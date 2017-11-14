@@ -124,10 +124,12 @@ a:hover {
 }
 
 .navbar {
-    position: relative;
+    position: fixed;
     background-color: #ffffff;
     padding:1.2rem;
     overflow: auto;
+    height: 7vh;
+    width: 100vw;
     z-index: 1;
 }
 
@@ -140,7 +142,7 @@ a:hover {
     cursor: pointer;
     text-transform: uppercase;
     text-align: right;
-    font-size: 0.8rem;
+    font-size: 1rem;
     font-weight: 300;
     color: black;
     /*background-color: red; */
@@ -380,4 +382,8 @@ nav ul li {
 .row ul li {
     display: inline-block;
     margin: 0 10px;
+}
+
+.row {
+    margin: 0;
 }
