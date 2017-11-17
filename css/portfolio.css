@@ -17,14 +17,21 @@
 
 .project-box-p .project-one {
     position: relative;
-    width: 50vw;
+    width: 100%;
     min-height: 400px;
     background-image: url(../images/proj_pic_gsd.png);
-    background-color: blue;
     background-repeat: no-repeat;
     background-position: center right;
     background-size: cover;
     overflow: auto;
+}
+
+.row .futatsu {
+    position: relative;
+    overflow: auto;
+    padding: 0;
+    /*background-image: linear-gradient(160deg, #E6E7E8 0%, #D1D3D4 100%);*/
+
 }
 
 .project-title-one {
@@ -34,15 +41,13 @@
     background-color: rgba(247, 179, 52, 0.75);
     text-align: left;
     color: white;
-    ;
 }
 
 .project-box-p .project-two {
     position: relative;
-    width: 50vw;
+    width: 100%;
     min-height: 400px;
     background-image: url(../images/proj_pic_k9c.png);
-    background-color: blue;
     background-repeat: no-repeat;
     background-position: center right;
     background-size: cover;
@@ -61,10 +66,9 @@
 
 .project-box-p .project-three {
     position: relative;
-    width: 50vw;
+    width: 100%;
     min-height: 400px;
     background-image: url(../images/proj_pic_blocbox.png);
-    background-color: blue;
     background-repeat: no-repeat;
     background-position: center right;
     background-size: cover;
@@ -82,10 +86,9 @@
 
 .project-box-p .project-four {
     position: relative;
-    width: 50vw;
+    width: 100%;
     min-height: 400px;
     background-image: url(../images/proj_pic_blocjams.png);
-    background-color: blue;
     background-repeat: no-repeat;
     background-position: center right;
     background-size: cover;
@@ -102,49 +105,88 @@
 }
 
 /*Prints*/
+.project-title-five {
+    position: relative;
+    margin: 40px 0;
+    padding: 15px 0; 
+    background-color: rgba(84, 136, 70, 0.75);
+    text-align: left;
+    color: white;
+}
+
 .project-box-p .project-five{
     position: relative;
-    width: 50vw;
+    width: 100%;
     min-height: 400px;
-    /*background-image: url(../images/proj_pic_gsd.png);*/
-    background-color: blue;
+    background-image: url(../images/pr_trm.png);
+    background-color: #a6bea0;
     background-repeat: no-repeat;
     background-position: center right;
     background-size: cover;
     overflow: auto;
 }
 
-.project-box .project-six {
+.trm{
+    width: 80%;
     position: relative;
-    width: 100vw;
+}
+
+.project-title-six {
+    position: relative;
+    margin: 40px 0;
+    padding: 15px 0; 
+    background-color: rgba(228, 214, 59, 0.75);
+    text-align: left;
+    color: white;
+}
+
+.project-box-p .project-six {
+    position: relative;
+    width: 100%;
     min-height: 400px;
-    background-image: url(../images/proj_pic_k9c.png);
-    background-color: blue;
+    background-image: url(../images/pr_w2r.png);
+    background-repeat: no-repeat;
+    background-color: #f4eeb4;
+    background-position: center right;
+    background-size: cover;
+    overflow: auto;
+}
+
+.project-title-seven {
+    position: relative;
+    margin: 40px 0;
+    padding: 15px 0; 
+    background-color: rgba(0, 120, 174, 0.75);
+    text-align: left;
+    color: white;
+}
+
+.project-box-p .project-seven {
+    position: relative;
+    width: 100%;
+    min-height: 400px;
+    background-image: url(../images/pr_mddc.png);
     background-repeat: no-repeat;
     background-position: center right;
     background-size: cover;
     overflow: auto;
 }
 
-.project-box .project-seven {
+.project-title-eight {
     position: relative;
-    width: 100vw;
-    min-height: 400px;
-    /*background-image: url(../images/proj_pic_k9c.png);*/
-    background-color: darkseagreen;
-    background-repeat: no-repeat;
-    background-position: center right;
-    background-size: cover;
-    overflow: auto;
+    margin: 40px 0;
+    padding: 15px 0; 
+    background-color: rgba(208, 164, 120, 0.75);
+    text-align: left;
+    color: white;
 }
 
-
-.project-box .project-eight {
+.project-box-p .project-eight {
     position: relative;
-    width: 100vw;
+    width: 100%;
     min-height: 400px;
-    /*background-image: url(../images/proj_pic_k9c.png);*/
-    background-color: papayawhip;
+    background-image: url(../images/pr_calendars.png);
+    background-color: #DFBF9A;
     background-repeat: no-repeat;
     background-position: center right;
     background-size: cover;

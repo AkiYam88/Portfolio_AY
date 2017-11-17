@@ -91,12 +91,24 @@ h6{
     padding: 3%;
 }
 
+
 .about-pic {
     background-image: linear-gradient(45deg, #E6E7E8 0%, #D1D3D4 100%);
+    padding: 0;
 }
 
 .about-pic-two {
     background-image: linear-gradient(45deg, #D1D3D4 0%, #E6E7E8 100%);
+}
+
+.about-pic-three {
+    background-image: linear-gradient(45deg, #E6E7E8 0%, #D1D3D4 100%);
+    padding: 0 10%;
+}
+
+.about-pic-four {
+    background-image: linear-gradient(45deg, #D1D3D4 0%, #E6E7E8 100%);
+    padding: 0 10%;
 }
 
 p {
@@ -114,7 +126,6 @@ a:link {
 }
 
 a:hover {
-    font-weight: bold;
     color: #F7B334;
 }
 
@@ -127,6 +138,9 @@ a:hover {
     position: fixed;
     background-color: #ffffff;
     padding:1.2rem;
+    border-bottom-style: solid;
+    border-bottom-width: thin;
+    border-bottom-color: #D1D3D4;
     overflow: auto;
     height: 7vh;
     width: 100vw;
@@ -224,7 +238,19 @@ nav ul li {
     margin: 0 auto;
     text-transform: uppercase;
     min-width: 300px;
+    
 	}
+
+.btn:hover {
+    font-weight: normal;
+    color: #FFFFFF;
+    /*color: #F7B334;*/
+    background-color: #CE8613;
+    border: 2px solid #CE8613;
+    box-shadow: 0px 2px 0px 0px #966012;
+} 
+
+
 
 /* projects */
 .project-title {
@@ -385,5 +411,73 @@ nav ul li {
 }
 
 .row {
+    width: 100vw;
     margin: 0;
+}
+
+.photo-show { 
+    height: 330px; /*表示したい大きさ*/
+    margin: 30px auto; /*縦余白30pxは任意*/
+    max-width: 100%;
+    position: relative;
+    width: 1000px; /*表示したい大きさ、height と合わせる*/
+}
+
+.photo-show img { 
+    animation: show 15s infinite;
+    -webkit-animation: show 15s infinite;
+    height: auto;
+    max-width: 100%;
+    opacity: 0;
+    position: absolute; /*画像を全て重ねる*/
+    top: 0;
+    left: 0;
+}
+
+/*アニメーション*/
+
+@keyframes show {
+    0% {opacity:0}
+    5% {opacity:1}
+    10% {opacity:1}
+    20% {opacity:0}
+ }
+
+@-webkit-keyframes show {
+    0% {opacity:0}
+    5% {opacity:1}
+    10% {opacity:1}
+    20% {opacity:0}
+}
+
+/*各画像のアニメーションの開始時間をずらす*/
+
+.photo-show img:nth-of-type(1) {
+    animation-delay: 0s;
+    -webkit-animation-delay: 0s;
+}
+
+.photo-show img:nth-of-type(2) {
+    animation-delay: 3s;
+    -webkit-animation-delay: 3s;
+}
+
+.photo-show img:nth-of-type(3) {
+    animation-delay: 6s;
+    -webkit-animation-delay: 6s;
+}
+
+.photo-show img:nth-of-type(4) {
+    animation-delay: 9s;
+    -webkit-animation-delay: 9s;
+}
+
+.photo-show img:nth-of-type(5) {
+    animation-delay: 12s;
+    -webkit-animation-delay:12s
+}
+
+.photo-show img:nth-of-type(6) {
+    animation-delay: 15s;
+    -webkit-animation-delay: 15s;
 }

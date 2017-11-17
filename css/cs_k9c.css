@@ -1,7 +1,7 @@
-.hero-gsrnc-container {
+.hero-k9c-container {
     position: relative;
     min-height: 700px;
-    background-image: linear-gradient(135deg, #FCDA64 0%, #F7B334 100%);
+    background-image: linear-gradient(135deg, #cfe2f4 0%, #70ABE5 100%);
     background-repeat: no-repeat;
     background-position: center right;
     background-size: cover;
@@ -10,7 +10,7 @@
     z-index: auto;
 }
 
-.hero-gsrnc-box {
+.hero-k9c-box {
     min-height: 650px;
     background-image: url(../images/cs_gsrnc_hero.png);
     background-repeat: no-repeat;
@@ -116,14 +116,6 @@ ul li .solution-bullets{
     margin: 0 auto;
     padding-bottom: 20px;
 
-}
-
-.cs_gsrnc_sv{
-        min-height: 330px;
-    background-image: url(../images/cs_gsrnc_sv.png);
-    background-repeat: no-repeat;
-    background-position: center center;
-    padding: 20px 0;
 }
 
 .cs_gsrnc_swot{

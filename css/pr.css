@@ -1,0 +1,75 @@
+.hero-trm-container {
+    position: relative;
+    min-height: 700px;
+    background-image: linear-gradient(135deg, #b9e065 0%, #548846 100%);
+    background-repeat: no-repeat;
+    background-position: center right;
+    background-size: cover;
+    overflow: auto;
+    padding: 10% 0 3%;
+    z-index: auto;
+}
+
+.hero-trm-box {
+    min-height: 600px;
+    background-image: url(../images/pr_trm.png);
+    background-repeat: no-repeat;
+    background-position: bottom center;
+}
+
+.hero-w2r2015-container {
+    position: relative;
+    min-height: 700px;
+    background-image: linear-gradient(135deg, #f2ea8f 0%, #e4d63b 100%);
+    background-repeat: no-repeat;
+    background-position: center right;
+    background-size: cover;
+    overflow: auto;
+    padding: 10% 0 3%;
+    z-index: auto;
+}
+
+.hero-w2r2015-box {
+    height: 600px;
+    background-image: url(../images/pr_w2r.png);
+    background-repeat: no-repeat;
+    background-position: bottom center;
+}
+
+.hero-mddc-container {
+    position: relative;
+    min-height: 700px;
+    background-image: linear-gradient(135deg, #98bfd1 0%, #0078ae 100%);
+    background-repeat: no-repeat;
+    background-position: center right;
+    background-size: cover;
+    overflow: auto;
+    padding: 10% 0 3%;
+    z-index: auto;
+}
+
+.hero-mddc-box {
+    min-height: 550px;
+    background-image: url(../images/pr_mddc.png);
+    background-repeat: no-repeat;
+    background-position: bottom center;
+}
+
+.hero-calendar-container {
+    position: relative;
+    min-height: 700px;
+    background-image: linear-gradient(135deg, #EFD9C2 0%, #D1A578 100%);
+    background-repeat: no-repeat;
+    background-position: center right;
+    background-size: cover;
+    overflow: auto;
+    padding: 10% 0 3%;
+    z-index: auto;
+}
+
+.hero-calendar-box {
+    min-height: 550px;
+    background-image: url(../images/pr_calendars.png);
+    background-repeat: no-repeat;
+    background-position: bottom center;
+}
