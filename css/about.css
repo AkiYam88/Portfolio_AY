@@ -1,6 +1,6 @@
 .about-intro {
     position: relative;
-    min-height: 700px;
+    min-height: 670px;
     width: 100vw;
     background-image: url(../images/Contact_indigo.jpg) ;
     /*background-color: blue;*/
@@ -8,33 +8,59 @@
     background-position: center right;
     background-size: cover;
     overflow: auto;
-    padding: 120px 10% 0;
+    padding-top: 20px;
     z-index: auto;
 }
 
-.row .futatsu {
-    position: relative;
-    overflow: auto;
-    min-height: 400px;
+.areaone{
+    margin-left: 10%;
+    max-width: 400px;
+    max-height: 500px;
+
 }
 
+.namegap{
+    padding: 0;
+    margin: 0;
+}
+
+.areatwo{
+
+    padding: 75px 0 0 25px;
+    max-height: 400px;
+}
+
+.hidari{
+    margin-left: 10%;
+    padding: 0;
+}
+
+.kao{
+    width:95%;
+    height:auto;
+    max-width:400px;
+    padding: 15px 15px 0 0;
+}
+
+.migi{
+    position: relative;
+    overflow: auto;
+}
 
 .about-title {
     margin: 0 0 20px;
     text-align: left;
 }
 
-
 .myname {
-    margin-left: 0;
-    height: 50px;
+    height: 75px;
 }
 
 #cf {
     position:relative;
     height:100%;
     width:100%;
-    margin: 0 0 200;
+    margin: 0 0 250px;
 }
 
 #cf img {

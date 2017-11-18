@@ -18,54 +18,59 @@
 <body>
 <!-- Navigation Bar -->
 <nav class="navbar">
-        <div class="col-md-1"></div>
-        <div class="col-md-5 logo">
+        <div class="col-md-6 logo">
         <a href="index.html">
             <img src="images/logo_blk.png" alt="Aki Portfolio Logo">
         </a> 
         </div>
-        <div class="col-md-5 links-container">
+        <div class="col-md-6 links-container">
             <ul>
-                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="portfolio.html">Work</a></li>
                 <li><a href="about.html">About</a></li>
                 <li><a href="contact.html"  class="active">Contact</a></li>
             </ul>
         </div>
-        <div class="col-md-1"></div>
 </nav>         
     
 <!-- Intro -->
-<section class="contact-box">
-    <section class="contact-title">
-    <h4>GET IN TOUCH</h4>
-        <p class="intro-txt">I hope you liked what you’ve seen.
-If you’ve got a project we can work with, <br>or something funny, hilarious, or brililiant to share - I’d like to hear from you.<br>Cheers!
-        </p> 
-</section>
-<!-- Main-->
-<section clas="row">
+<section class="hero-frame">
+    <div class="contact-box">
+<!-- TITLES-->
+        <div class="container">
+            <div class="col-mid-12">
+                <h4>GET IN TOUCH</h4>
+                <p class="intro-txt">I hope you liked what you’ve seen. <br>If you’ve got a project we can work with, or something funny, hilarious, or brililiant to share<br> - I’d like to hear from you. Cheers!
+                </p>
+            </div>
+        </div>
+<!--FORM-->
+        <div class="container">
+        <div class="col-md-12">
 <!-- Form -->       
-    <section class="contactform col-lg-8 col-centered">
-            <form action="https://getsimpleform.com/messages?form_api_token=f18a3a2315fa28a9cab7ec9bcea44c26" method="post">
+            <div class="contactform col-lg-8 col-centered">
+                <form action="https://getsimpleform.com/messages?form_api_token=f18a3a2315fa28a9cab7ec9bcea44c26" method="post">
 <!-- the redirect_to is optional, the form will redirect to the referrer on submission -->
-            <input type='hidden' name='redirect_to' value='<the complete return url e.g. http://fooey.com/thank-you.html>' />
-
-     
+                    <input type='hidden' name='redirect_to' value='http://saltfish880.com/thank-you.html>' />
+    
 <!-- all your input fields here.... -->
-    <p class="formtitle">Your Name:</p>
-        <input type='text' name='Name' class="formfields"/>
-    <p class="formtitle">Your Email:</p>
-        <input type='text' name='Email' class="formfields"/>
-    <p class="formtitle">Your Message Here:</p>
-        <input type='text' cols='50' rows='20' name='Message' value='About a project we can work, or coffee, or dogs...' style='height:100px' class="formfields"/>
-    <br>
-                <section class="content-btn">
-  <input type='submit' value='SEND MESSAGE' class='btn'/>
-                    </section>
-            </form>   
-    </section>
-        </section>
+                    <p class="formtitle">Your Name:</p>
+                        <input type='text' name='Name' class="formfields"/>
+                    <p class="formtitle">Your Email:</p>
+                        <input type='text' name='Email' class="formfields"/>
+                    <p class="formtitle">Your Message Here:</p>
+                    <textarea cols='50' rows='20' name='Message' style='height:100px' class="formfields">About a project we can work, or coffee, or dogs...
+                    </textarea>
+                    <br>
+                    <div class="content-btn">
+                    <input type='submit' value='SEND MESSAGE' class='btn'/>
+                    </div>
+                </form>   
+            </div>
+            </div>
+            </div>
+    </div>
 </section>
+    
 <!-- Footer Section -->
 <footer class="myfooter row">
     <div class="col-md-1"></div>

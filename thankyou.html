@@ -1,22 +1,71 @@
-@keyframes MoveUpDown {
-  0% {
-    bottom: 0%;
-  }
-  50% {
-    bottom: 2%;
-  }
-  100% {
-    bottom: 0%;
-  }
-}
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <title>Aki UX/UI Designer</title>
+        <!--Meta -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+<!-- CSS -->
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i" rel="stylesheet">
+        <link rel="stylesheet" href="css/bootstrap.min.css">  
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/font-awesome.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/portfolio.css">
+        <link rel="stylesheet" href="css/animate.css">
+    </head>
+    <body>
+<!-- Navigation Bar -->
+<nav class="navbar row">
+        <div class="col-md-6 logo">
+        <a href="index.html">
+            <img src="images/logo_blk.png" alt="Aki Portfolio Logo">
+        </a> 
+        </div>
+        <div class="col-md-6 links-container">
+            <ul>
+                <li><a href="portfolio.html">Work</a></li>
+                <li><a href="about.html" class="active">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+</nav>     
 
-.sankaku {
-    width: 0;
-    height: 0;
-    border: 40px solid transparent;
-    border-top: 40px solid #ffffff;
-    margin: 0 auto;
-    position: relative;
-    bottom: 0%;
-    animation: MoveUpDown 2.2s linear infinite;
-}
+<!-- Hero Content -->
+    <section class="hero-container">
+        <div class="portfolio-box">
+            <h4>Thank you!</h4>
+            <h5 class="elv-txt"><br>Your message has been successfully sent.</h5>
+        </div>
+
+    </section>
+
+<!-- Footer Section -->
+<footer class="myfooter row">
+    <div class="col-md-1"></div>
+    <div class="col-md-5 mycopyright">
+        <h6>&copy; 2017 Akiko Yamada |   UX/UI Designer | All Rights Reserved</h6>
+    </div>
+    <div class="col-md-5">
+        <ul class="mylinks">
+            <li><a href="contact.html"><i class="fa fa-envelope-o"></i></a></li>
+            <li><a href="#http://www.linkedin.com/in/akikoyamada"><i class="fa fa-linkedin-square"></i></a></li>
+            <li><a href="https://github.com/AkiYam88"><i class="fa fa-github-square"></i></a></li>
+        </ul>
+    </div>
+    <div class="col-md-1"></div>
+</footer>  
+        
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-109666712-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-109666712-1');
+</script>
+
+        
+</body>
+</html>

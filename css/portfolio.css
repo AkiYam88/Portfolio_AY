@@ -4,7 +4,6 @@
     position: relative;
     height: 25vh;
     background-image: url(../images/Indigo_short.jpg) ;
-   /* background-image: linear-gradient(0deg, #94CBD1 0%, #E6E7E8 100%);*/
     background-repeat: no-repeat;
     background-position: center right;
     background-size: cover;
@@ -30,8 +29,6 @@
     position: relative;
     overflow: auto;
     padding: 0;
-    /*background-image: linear-gradient(160deg, #E6E7E8 0%, #D1D3D4 100%);*/
-
 }
 
 .project-title-one {
@@ -104,115 +101,99 @@
         color: white;
 }
 
-/*Prints*/
+/*PRINTS*/
+
+.pr-hero{
+    max-height: 360px;
+    width: auto;
+    z-index: 2;
+}
+
 .project-title-five {
-    position: relative;
+    position: absolute;
     margin: 40px 0;
     padding: 15px 0; 
     background-color: rgba(84, 136, 70, 0.75);
     text-align: left;
     color: white;
+    z-index: 3;
 }
 
 .project-box-p .project-five{
     position: relative;
     width: 100%;
     min-height: 400px;
-    background-image: url(../images/pr_trm.png);
     background-color: #a6bea0;
     background-repeat: no-repeat;
     background-position: center right;
     background-size: cover;
     overflow: auto;
-}
-
-.trm{
-    width: 80%;
-    position: relative;
+    z-index: 1;
 }
 
 .project-title-six {
-    position: relative;
+    position: absolute;
     margin: 40px 0;
     padding: 15px 0; 
     background-color: rgba(228, 214, 59, 0.75);
     text-align: left;
     color: white;
+    z-index: 3;
 }
 
 .project-box-p .project-six {
     position: relative;
     width: 100%;
     min-height: 400px;
-    background-image: url(../images/pr_w2r.png);
     background-repeat: no-repeat;
     background-color: #f4eeb4;
     background-position: center right;
     background-size: cover;
     overflow: auto;
+    z-index: 1;
 }
 
 .project-title-seven {
-    position: relative;
+    position: absolute;
     margin: 40px 0;
     padding: 15px 0; 
     background-color: rgba(0, 120, 174, 0.75);
     text-align: left;
     color: white;
+    z-index: 3;
 }
 
 .project-box-p .project-seven {
     position: relative;
     width: 100%;
     min-height: 400px;
-    background-image: url(../images/pr_mddc.png);
+    background-color: #98bfd1;
     background-repeat: no-repeat;
     background-position: center right;
     background-size: cover;
     overflow: auto;
+    z-index: 1;
 }
 
 .project-title-eight {
-    position: relative;
+    position: absolute;
     margin: 40px 0;
     padding: 15px 0; 
     background-color: rgba(208, 164, 120, 0.75);
     text-align: left;
     color: white;
+    z-index: 3;
 }
 
 .project-box-p .project-eight {
     position: relative;
     width: 100%;
     min-height: 400px;
-    background-image: url(../images/pr_calendars.png);
     background-color: #DFBF9A;
     background-repeat: no-repeat;
     background-position: center right;
     background-size: cover;
     overflow: auto;
+    z-index: 1;
 }
 
-.col-centered{
-    float: none;
-    margin: 0 auto;
-}
-
-.formtitle {
-    margin: 20px 0 2px;
-    font-size: 1.2rem;
-}
-
-.formfields {
-    width: 100%;
-}
-
-.content-btn{
-margin-top: 5%;
-text-align: center;
-}
-
-.contact-container {
-    padding: 2rem 0;
-    background-image: linear-gradient(45deg, #E6E7E8 0%, #D1D3D4 100%);
-}

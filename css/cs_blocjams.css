@@ -1,86 +1,16 @@
 .hero-blocjams-container {
     position: relative;
-    min-height: 700px;
+    height: auto;
     background-image: linear-gradient(135deg, #E6B7DA 0%, #7E268E 100%);
     background-repeat: no-repeat;
     background-position: center right;
     background-size: cover;
     overflow: auto;
-    padding: 10% 0 3%;
+    padding-top:20px;
     z-index: auto;
 }
 
-.hero-blocjams-box {
-    min-height: 650px;
-    background-image: url(../images/cs_gsrnc_hero.png);
-    background-repeat: no-repeat;
-    background-position: bottom center;
-}
-
-.summary-item-title{
-    text-transform: uppercase;
-    font-weight: 500;
-}
-
-.lower-cases {
-    text-transform: lowercase;
-}
-
-.col-md-10{
-    position: center;
-    overflow: auto;
-
-}
-
-after-ss{
-    position: relative;
-    min-height: 700px;
-    background-image: linear-gradient(45deg, #E6E7E8 0%, #D1D3D4 100%);
-    background-repeat: no-repeat;
-    background-position: center right;
-    background-size: cover;
-    overflow: auto;
-    padding: 5% 0;
-    z-index: 1;
-}
-
-.contact-container-cs {
-    padding: 2rem 0;
-    background-color: #ffffff;
-    /*background-image: linear-gradient(45deg, #E6E7E8 0%, #D1D3D4 100%); */
-}
-
-.cs-bottom-nav{
-    padding: 2% 0 0;
-}
-
-.cs-text{
-    text-align: center;
-    text-transform: capitalize;
-}
-
-.contact-cs-text{
-    text-transform: uppercase;
-}
-
-.cs-bullets{
-    font-weight:300;
-}
-
-ul li .solution-bullets{
-    list-style-type: circle;
-}
-
-
-.cs_gsrnc_before{
-    min-height: 400px;
-    background-image: url(../images/cs_gsrnc_before.png);
-    background-repeat: no-repeat;
-    background-position: center center; 
-    padding: 20px 0;
-}
-
-.cs_gsrnc_after2{
+.cs-gsrnc-after-diagonal{
     min-height: 530px;
     width: 100vw;
     background-image: url(../images/cs_gsrnc_after_2.png);
@@ -89,91 +19,4 @@ ul li .solution-bullets{
     background-size: cover;
     overflow: auto;
     padding-top: 0;
-}
-
-.hero-box {
-    position: relative;
-    width: 100vw;
-    height: 100vh;
-    background-image: url(../images/Home_indigo2.jpg);
-    /*background-color: blue;*/
-    background-repeat: no-repeat;
-    background-position: center right;
-    background-size: cover;
-    overflow: auto;
-    padding-top: 20vh;
-}
-
-.intro-cs {
-    text-align: center;
-    margin: 0 auto;
-    padding-top: 450px;
-
-}
-
-.intro-cs-bottom {
-    text-align: center;
-    margin: 0 auto;
-    padding-bottom: 20px;
-
-}
-
-.cs_gsrnc_swot{
-        min-height: 300px;
-    background-image: url(../images/cs_gsrnc_swot.png);
-    background-repeat: no-repeat;
-    background-position: center center;
-    padding: 20px 0;
-}
-
-.cs_gsrnc_personas{
-        min-height: 330px;
-    background-image: url(../images/cs_gsrnc_personas.png);
-    background-repeat: no-repeat;
-    background-position: center center;
-    padding: 20px 0;
-}
-
-
-
-.blueprint{
-    min-height: 400px;
-    width: 100vw;
-    background-image: url(../images/cs_gsrnc_sitemaps.png);
-    background-repeat: no-repeat;
-    background-position: center center;    
-}
-
-.row .mittsu {
-    position: relative;
-    overflow: auto;
-    /*background-image: linear-gradient(160deg, #E6E7E8 0%, #D1D3D4 100%);*/
-
-}
-
-.wf-ind{
-    text-align: center;
-    margin: 20px 0;
-}
-
-.wf-ind img{
-    width: 90%;
-}
-
-.wf-upper {
-    margin: 0 0 20px;
-}
-
-.cs_gsrnc_after3{
-    height: 530px;
-    background-image: url(../images/cs_gsrnc_after_laptop.png);
-    background-repeat: no-repeat;
-    background-position: center center;    
-}
-
-.cs_gsrnc_branding{
-        min-height: 450px;
-    background-image: url(../images/cs_gsrnc_branding_combined.png);
-    background-repeat: no-repeat;
-    background-position: center;
 }
