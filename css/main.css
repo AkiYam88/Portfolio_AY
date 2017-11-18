@@ -30,13 +30,13 @@ h1, h2 {
 }
 
 h1 {
-    font-size: 7.5vw;
+    font-size: 10vw;
     padding-bottom: 20%;
 
 }
 
 h2 {
-    font-size: 5vw;
+    font-size: 7vw;
 }
 
 h3 {
@@ -106,12 +106,12 @@ a:hover {
     height: 7vh;
     width: 100vw;
     min-height: 120px;
-    z-index: 1;
+    z-index: 4;
 }
 
 .navbar .logo {
    /* background-color: beige;*/
-    padding-left: 10%;
+    padding: 0 10%;
 }
 
 .navbar .links-container {  
@@ -124,7 +124,7 @@ a:hover {
     color: black;
     /*background-color: red;*/
     width: 100%;
-    padding: 11px 10% 11px 0;
+    padding: 11px 10%;
 }
 
 
@@ -261,7 +261,7 @@ nav ul li {
     background-image: url(../images/proj_pic_k9c.png);
     background-color: blue;
     background-repeat: no-repeat;
-    background-position: center right;
+    background-position: center center;
     background-size: cover;
     overflow: auto;
 }
@@ -283,7 +283,7 @@ nav ul li {
     background-image: url(../images/proj_pic_blocbox.png);
     background-color: blue;
     background-repeat: no-repeat;
-    background-position: center right;
+    background-position: center left;
     background-size: cover;
     overflow: auto;
 }
@@ -304,7 +304,7 @@ nav ul li {
     background-image: url(../images/proj_pic_blocjams.png);
     background-color: blue;
     background-repeat: no-repeat;
-    background-position: center right;
+    background-position: center center;
     background-size: cover;
     overflow: auto;
 }
@@ -384,11 +384,10 @@ nav ul li {
 }
 
 .photo-show { 
-    height: 330px; /*表示したい大きさ*/
-    margin: 30px auto; /*縦余白30pxは任意*/
-    max-width: 100%;
+    min-height: 270px; /*表示したい大きさ*/
+    margin: 10px auto; /*縦余白30pxは任意*/
     position: relative;
-    width: 1000px; /*表示したい大きさ、height と合わせる*/
+    width: 95%; /*表示したい大きさ、height と合わせる*/
 }
 
 .photo-show img { 

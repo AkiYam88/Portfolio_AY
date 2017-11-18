@@ -1,21 +1,28 @@
 .about-intro {
     position: relative;
-    min-height: 670px;
-    width: 100vw;
+    height:auto;
     background-image: url(../images/Contact_indigo.jpg) ;
-    /*background-color: blue;*/
     background-repeat: no-repeat;
     background-position: center right;
     background-size: cover;
     overflow: auto;
     padding-top: 20px;
     z-index: auto;
+    
+    }
+
+.areazero{
+    margin-left: 10%;
+    height: 60px;
+    margin-bottom: 0;
 }
 
 .areaone{
     margin-left: 10%;
+    min-height: 360px;
+    margin-bottom: 20px;
     max-width: 400px;
-    max-height: 500px;
+    height: auto;
 
 }
 
@@ -25,9 +32,9 @@
 }
 
 .areatwo{
-
-    padding: 75px 0 0 25px;
-    max-height: 400px;
+    padding: 20px 0 0 25px;
+    margin-bottom: 15px;
+    height: auto;
 }
 
 .hidari{
@@ -37,9 +44,8 @@
 
 .kao{
     width:95%;
-    height:auto;
     max-width:400px;
-    padding: 15px 15px 0 0;
+    padding: 15px 15px 0px 0;
 }
 
 .migi{
@@ -60,7 +66,7 @@
     position:relative;
     height:100%;
     width:100%;
-    margin: 0 0 250px;
+    margin: 0;
 }
 
 #cf img {

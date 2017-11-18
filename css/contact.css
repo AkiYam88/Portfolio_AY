@@ -1,17 +1,6 @@
-.portfolio-box {
-    position: relative;
-    height: 25vh;
-    background-image: url(../images/Indigo_short.jpg) ;
-    background-repeat: no-repeat;
-    background-position: center right;
-    background-size: cover;
-    overflow: auto;
-    padding: 12vh 0 3vh;
-    z-index: auto;
-}
 .contact-box {
     position: relative;
-    height: 50vh;
+    height: auto;
     background-image: url(../images/Contact_indigo.jpg) ;
     background-repeat: no-repeat;
     background-position: center right;
@@ -36,6 +25,8 @@
 }
 
 .content-btn{
-margin-top: 5%;
+margin: 5% 0;
+padding: 0px;
 text-align: center;
+min-width: 240px;
 }
