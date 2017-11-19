@@ -371,8 +371,7 @@ nav ul li {
     margin: 0;
 }
 
-/* --- リストのコピー--- */
-/*.row ul {
+*.row ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -381,7 +380,7 @@ nav ul li {
 .row ul li {
     display: inline-block;
     margin: 0 10px;
-}*/
+}*
 
 /* --- モーダル --- */
 .modal-middle {		//モーダルウィンドウの縦表示位置を調整
