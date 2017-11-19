@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <title>Aki UX/UI Designer</title>
+        <!--Meta -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+<!-- CSS -->
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i" rel="stylesheet">
+        <link rel="stylesheet" href="css/bootstrap.min.css">  
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/font-awesome.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/about.css">
+        <link rel="stylesheet" href="css/cs.css">
+        <link rel="stylesheet" href="css/test.css">
+        <link rel="stylesheet" href="css/animate.css">
+                <link rel="stylesheet" href="css/animate.min.css">
+                <link rel="stylesheet" href="css/normalize.min.css">
+        
+                <style>
+            #btn-close-modal {
+                width:100%;
+                text-align: center;
+                cursor:pointer;
+                color:#fff;
+            }
+
+        </style>
+    </head>
+    
+<body>
+
+
+        <!--Call your modal-->
+        <ul>
+            <li><a id="demo01" href="#animatedModal">DEMO01</a></li>
+        </ul>
+      
+      
+        <!--DEMO01-->
+        <div id="animatedModal">
+            <!--THIS IS IMPORTANT! to close the modal, the class name has to match the name given on the ID -->
+            <div  id="btn-close-modal" class="close-animatedModal"> 
+                CLOSE MODAL
+            </div>
+                
+            <div class="modal-content">
+                <!--Your modal content goes here-->
+            </div>
+        </div>
+
+
+        <script src="js/jquery.min.js"></script>
+        <script src="js/animatedModal.min.js"></script>
+        <script>
+            //demo 01
+            $("#demo01").animatedModal();
+
+        </script>
+    
+        
+</body>
+</html>

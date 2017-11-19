@@ -13,7 +13,13 @@
         <link rel="stylesheet" href="css/main.css">
         <link rel="stylesheet" href="css/about.css">
         <link rel="stylesheet" href="css/cs.css">
+        <link rel="stylesheet" href="css/modal.css">
         <link rel="stylesheet" href="css/animate.css">
+        
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>        
+ 
     </head>
     <body>
 <!-- Navigation Bar -->
@@ -32,7 +38,7 @@
         </div>
 </nav>     
 <!-- Intro -->
-<section class="hero-frame ">
+<section class="hero-frame">
     <section class="row about-intro">
         <div class="areazero col-md-12">            <h3 class="namegap">Hi My Name is Akiko</h3> </div>
         <div class="areaone col-md-4">
@@ -52,6 +58,7 @@
         </div>
     </section>
 </section>
+
 <!-- Main-->
 <section class="about-mains about-txt row">
     <div class="col-md-10 container">
@@ -60,12 +67,30 @@
 
         As you might have guessed from my name, I was born in Japan, grew up reading books and mangas non-stop. When I was not reading, I was drawing (pens and pencils), painting (oil), or sometimes building large installations for school events. Oh, and I’ve been an event photographer since age 13. I believe I picked up my core aesthetic and love of visual communication during these years. Unfortunately, I was also allergic to “cute” and that’s probably why I ended up in the States - the first big leap across the Pacific Ocean. <br><br>
 
-        Next came the leap across the Atlantic Ocean. I moved to Europe on working holiday and managed to extend my stay by a few years attending art school. Stuck in a studio all day every day, I acquired my work ethic in each stage of design processes (analogue and digital).</p>
+        Next came the leap across the Atlantic Ocean. I moved to Europe on working holiday and managed to extend my stay by a few years attending art school. Stuck in a studio all day every day, I acquired my work ethic in each stage of design processes (analogue and digital).
+        
+        <br><br>
+        Here's some random non-UX/UI stuff I've done/still do.
+        </p>
     </div>
 
 </section>
-<section class="about-mains about-pic row">
-    <p class="col-md-10 container">abc</p>
+
+<section class="about-mains about-pic mytest">
+
+<section class="about-mains-two about-pic">
+    <div class="my-slider col-md-10 container"></div>
+    
+    <div class="col-md-10 container">
+<div class="slider">
+    <div><p>Figure Drawing (charcoal/paper)</p><img src="images/about_figdraw.png"></div>
+    <div><p>Portraits (pencil/paper)</p><img src="images/about_ports.png"></div>
+    <div><p>Icons and Graphics for Presentation (Illustrator/PPT)</p><img src="images/about_smlgraphics.png"></div>
+    <div><p>Pen Drawing (Copic Multiliner)</p><img src="images/about_joes.png"></div>
+</div>
+    </div>
+</section>  
+   
 </section>
 <section class="about-mains about-txt row">
     <div class="col-md-10 container">
@@ -73,21 +98,20 @@
     
         <p>Upon my return to California after an art shool and a hitchhike later, I landed a design job in the East Bay area through a chance meeting. It was a jack-of-all-trades position and I did everything from PowerPoint presentation, print brochures, and large banners to the department’s websites. While it was a design generalist position, I gained variable real-world experiences in consulting clients/content experts, working solo and in a team, and working with outside vendors.<br><br>
 
-        Through my generalist days, the urge to consolidate my paths to dive deeper in one direction became too strong to stay put – another leap. But this time I didn’t change my zip code – I dove online for an apprenticeship at Bloc in UX/UI design. While it was by far the most introvert processes wrestling the projects on my computer, it was the most extrovert journey climbing a steep learning curve. Communicating and seeking assistances with mentors, fellow apprentices and countless people who helped my user researches, my design became more meaningful. Great visual communication is nothing if there is no recipient. I consider myself lucky to be able to reinforce that core value while reinforcing the skills required in the trade.</p>
+        Through my generalist days, the urge to consolidate my paths to dive deeper in one direction became too strong to stay put – another leap. But this time I didn’t change my zip code – I dove online for an apprenticeship at Bloc in UX/UI design. While it was by far the most introvert processes wrestling the projects on my computer, it was the most extrovert journey climbing a steep learning curve. Communicating and seeking assistances with mentors, fellow apprentices and countless people who helped my user researches, my design became more meaningful. Great visual communication is nothing if there is no recipient. I consider myself lucky to be able to reinforce that core value while reinforcing the skills required in the trade.</p> 
+        
+                
+        <br><br>
+        <p>Here's tools and softwares I use regularly.</p>
     </div>
 </section>
-        
-<section class="about-mains about-pic row">
+  
+<section class="about-mains about-pic">
     <div class="col-md-10 container">
-       <div class="photo-show">
-	　　<img src="images/about_figdraw.png">
-	　　<img src="images/about_ports.png">
-	　　<img src="images/about_smlgraphics.png">
-	　　<img src="images/about_joes.png">
-	</div>
+            <p>placeholder </p>
     </div>
 </section>   
-        
+              
 <section class="about-mains about-txt row">
     <div class="col-md-10 container">
         <h3 class="section-title">still that mutt - with updates installed</h3>
@@ -125,6 +149,13 @@
     </div>
     <div class="col-md-1"></div>
 </footer>  
+
+<!--SCRIPT?? -->
+<script>
+    $(document).ready(function(){
+      $('.slider').bxSlider();
+    });
+  </script>
         
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-109666712-1"></script>

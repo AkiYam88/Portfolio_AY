@@ -27,18 +27,18 @@
 
 .cs-bullets{
     font-weight:300;
+    list-style-type:square;
 }
 
-ul.cs-bullets
+
 
 .about-pic {
-    height: auto;
     background-image: linear-gradient(45deg, #E6E7E8 0%, #D1D3D4 100%);
     padding: 0;
 }
-
 .about-pic-two {
     background-image: linear-gradient(45deg, #D1D3D4 0%, #E6E7E8 100%);
+    padding: 0 10%;
 }
 
 .about-pic-three {
@@ -120,6 +120,16 @@ ul.cs-bullets
     position: relative;
     overflow: auto;
     /*background-image: linear-gradient(160deg, #E6E7E8 0%, #D1D3D4 100%);*/
+}
+
+.wf-ind-right{
+    text-align: left;
+    margin: 20px 0;
+}
+
+.wf-ind-left{
+    text-align: right;
+    margin: 20px 0;
 }
 
 .wf-ind{

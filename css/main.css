@@ -199,13 +199,13 @@ nav ul li {
 	color: #ffffff;
 	font-weight: 300;
 	text-decoration: none;
-	padding:10px 40px;
+	padding:10px 0px;
 	background: #0F5474;
 	border: 2px solid #0F5474;
 	box-shadow: 0px 2px 0px 0px #333333;
     margin: 0 auto;
     text-transform: uppercase;
-    min-width: 300px;
+    min-width: 290px;
     
 	}
 
@@ -217,7 +217,6 @@ nav ul li {
     border: 2px solid #CE8613;
     box-shadow: 0px 2px 0px 0px #966012;
 } 
-
 
 
 /* projects */
@@ -367,7 +366,13 @@ nav ul li {
     font-size: 2rem;
 }
 
-.row ul {
+.row {
+    width: 100vw;
+    margin: 0;
+}
+
+/* --- リストのコピー--- */
+/*.row ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -376,18 +381,26 @@ nav ul li {
 .row ul li {
     display: inline-block;
     margin: 0 10px;
+}*/
+
+/* --- モーダル --- */
+.modal-middle {		//モーダルウィンドウの縦表示位置を調整
+	margin: 5% auto;
+}
+ 
+.modal-img_footer {	//表示予定のテキストとボタンを中央揃え
+	padding: .5em;
+	text-align: center;
 }
 
-.row {
-    width: 100vw;
-    margin: 0;
-}
+/* --- 使わなかったらdeploy前に消す --- */
 
 .photo-show { 
-    min-height: 270px; /*表示したい大きさ*/
-    margin: 10px auto; /*縦余白30pxは任意*/
+    min-height: 330px; /*表示したい大きさ*/
+    margin: 0; /*縦余白30pxは任意*/
     position: relative;
-    width: 95%; /*表示したい大きさ、height と合わせる*/
+    overflow: auto;
+    width: 90%; /*表示したい大きさ、height と合わせる*/
 }
 
 .photo-show img { 
@@ -397,8 +410,7 @@ nav ul li {
     max-width: 100%;
     opacity: 0;
     position: absolute; /*画像を全て重ねる*/
-    top: 0;
-    left: 0;
+text-align: center;
 }
 
 /*アニメーション*/
