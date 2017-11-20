@@ -96,7 +96,7 @@ a:hover {
 }
 
 .navbar {
-    position: fixed;
+    position: relative;
     background-color: #ffffff;
     padding:1.2rem;
     border-bottom-style: solid;
@@ -105,7 +105,7 @@ a:hover {
     overflow: ;
     height: 7vh;
     width: 100vw;
-    min-height: 80px;
+    min-height: 100px;
     z-index: 4;
 }
 
@@ -141,7 +141,7 @@ nav ul li {
 
 
 .hero-frame {
-        padding-top: 80px;
+        padding-top: 0px;
 }
 
 .hero-box {
