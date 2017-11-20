@@ -9,6 +9,7 @@
 <!-- CSS -->
         <link href="https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i" rel="stylesheet">
         <link rel="stylesheet" href="css/bootstrap.min.css">  
+        <link rel="stylesheet" href="css/bootstrap.css">  
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/font-awesome.css">
         <link rel="stylesheet" href="css/main.css">
@@ -17,20 +18,36 @@
     
     <body>
 <!-- Navigation Bar -->
-<nav class="navbar">
-        <div class="col-md-6 logo">
-        <a href="index.html">
+    <nav class="navbar navbar-toggleable-md navbar-light bg-faded">
+        
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        
+<div class="col-md-6 logo">
+            <a class="navbar-brand" href="index.html">
             <img src="images/logo_blk.png" alt="Aki Portfolio Logo">
-        </a> 
+        </a>
+</div>
+
+        <div class="collapse navbar-collapse links-container" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="portfolio.html">work </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="about.html">about</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="contact.html">contact</a>
+      </li>
+    </ul>
         </div>
-        <div class="col-md-6 links-container">
-            <ul>
-                <li><a href="portfolio.html">work</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </div>
-</nav>
+        
+        
+        
+        
+    </nav>
         
 <!-- Hero Content -->
 <section class="hero-frame">
