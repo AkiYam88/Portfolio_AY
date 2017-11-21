@@ -142,7 +142,8 @@ nav ul li {
 
 
 .hero-frame {
-        padding-top: 0px;
+    padding-top: 0px;
+    width: 100vw;
 }
 
 .hero-box {

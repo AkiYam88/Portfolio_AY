@@ -28,5 +28,8 @@
 margin: 5% 0;
 padding: 0px;
 text-align: center;
-min-width: 240px;
+}
+
+.btn-size {
+    min-width: 240px;
 }
