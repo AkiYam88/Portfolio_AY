@@ -10,6 +10,12 @@
     padding: 3%;
 }
 
+.mydivider {
+    border-top-style: solid;
+    border-top-width: thin;
+    border-top-color: #D1D3D4;
+}
+
 .summary-item-title{
     text-transform: uppercase;
     font-weight: 500;
@@ -114,6 +120,16 @@
 .cs-text{
     text-align: center;
     text-transform: capitalize;
+}
+
+.cs-survey-numbers{
+    text-align: center;
+    font-size: 40px;
+    margin: 0;
+}
+
+.cs-survey{
+    text-align: center;
 }
 
 .row .mittsu {

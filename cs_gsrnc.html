@@ -18,21 +18,23 @@
     
     <body>
 <!-- Navigation Bar -->
-<nav class="navbar">
-        <div class="col-md-6 logo">
+<nav class="navbar row">
+         <div class="col-lg-1 hidden-lg"></div>
+        <div class="col-lg-3 logo">
         <a href="index.html">
             <img src="images/logo_blk.png" alt="Aki Portfolio Logo">
         </a> 
         </div>
-        <div class="col-md-6 links-container">
+        <div class="col-lg-4 hidden-lg"></div>
+        <div class="col-lg-3 links-container">
             <ul>
                 <li><a href="portfolio.html" class="active">Work</a></li>
                 <li><a href="about.html">About</a></li>
                 <li><a href="contact.html">Contact</a></li>
             </ul>
         </div>
-
-</nav>
+     <div class="col-lg-1 hidden-lg"></div>
+</nav>  
         
 <!-- Hero Content -->
     <section class="hero-frame">
@@ -102,7 +104,7 @@
     <div class="row">
         <div class="col-md-10 container">
             <h3 class="section-title">the solution</h3>
-            <p><br>Following was the major tasks to revamp the site. The new layout using grids to construct the pages to be responsive. Reduced text volume wherever possible and introduced icons to achieve cleaner look and easier navigation. The mostly-white-background to have the most important elements - the dog pictures / information - to stand out. Inspected the entire site to assess the information hierarchy to reorganize the pages and sections to improve the user experience.
+            <p><br>These arer the major tasks to revamp the site. The new layout using grids to construct the pages to be responsive. Reduced text volume wherever possible and introduced icons to achieve cleaner look and easier navigation. The mostly-white-background to have the most important elements - the dog pictures / information - to stand out. Inspected the entire site to assess the information hierarchy to reorganize the pages and sections to improve the user experience.
             </p>
         </div>
     </div>
@@ -110,21 +112,29 @@
         
 <!-- Research Pics-->       
 <section class="row about-mains about-pic">
-    <div class="mittsu col-md-4">
+    <div class="col-lg-1 hidden-lg"></div>    
+    <div class="container mittsu col-md-3">
         <div class="wf-ind">            
-            <p class="cs-text">research result 1</p>
+            <p class="cs-survey-numbers">75%</p>
+            <p class="cs-survey">View the site on a smartphone and/or laptop (multiple answers)
+            </p>
         </div>
     </div>
-    <div class="mittsu col-md-4">
+    <div class="container mittsu col-md-3">
         <div class="wf-ind">            
-            <p class="cs-text">research result 2</p>
+            <p class="cs-survey-numbers">66%</p>
+            <p class="cs-survey">Find it easy to navigate the current site mainly because they use it often while others think it can be difficult at times to use the site
+            </p>
         </div>
     </div>
-    <div class="mittsu col-md-4">
+    <div class="container mittsu col-md-3">
         <div class="wf-ind">            
-            <p class="cs-text">research result 3</p>
+            <p class="cs-survey-numbers">90%</p>
+            <p class="cs-survey">Think page layouts on smartphone can be improved while 30% of them also think the pages on  desktop can be better
+            </p>
         </div>
     </div>
+    <div class="col-lg-1 hidden-lg"></div>    
 </section> 
         
 <!-- PROCESS-0 -->
@@ -133,7 +143,7 @@
         <div class="col-md-10 container">
             <h3 class="section-title">the process</h3><br>
             <h5>User Survey</h5>
-            <p>While I had a good ideas about what to keep and what needed improvement, I conducted a user survey to better understand the prespective of different types of users - active volunteers and non-members. 
+            <p>While I had a good ideas about what to keep and what needed improvement, I conducted a user survey to better understand the prespective of users. As I expected, laptops and smartphones are the go to divices for majority of the users.Interesting finding was that 2/3 people thought it was easy to use the site, yet 90% of the same group of people thought the page design for smartphones could use some improvement (and 30% thought the same for the desktop design).<br><br>From what I can see in the survey results, it was easy to nagivate through the site for the current volunteers as they use the site all the time. It was also not partifularly difficult for the first time users because so many websites out there were still not responsive and people simply knew the way to intuitively work through it. <br><br>So it was not broken, but it was time to reinvent the wheel as the majority thought the design should be improved.
             </p>
         </div>
     </div>
@@ -265,9 +275,9 @@
         <div class="col-md-10 container">
             <h3 class="section-title">Wireframes and Mockups</h3><br>
             <h5>Wireframes</h5>
-            <p>Lofi (Balsamiq) and hifi (Sketch) wireframes were created in several iterations to determine effective page layouts. At this stage I created 3 options of home page along with the basic structures of second and third level pages.<br>My main focus there was to create friendlier user interfaces for the visiters to browse dogs and find information hustle-free.
+            <p>Lofi (Balsamiq) and hifi (Sketch) wireframes were created in several iterations to determine effective page layouts. I created 3 options of home page. One with a balanced mixture of picture/text, while the other two were hearvily picture oriented (text would show when hovering on a picture). A preference test favored the option #1, and created more layouts for the second and third level pages.
             <br><br>
-            I started collecting icons and additional pictures from stock photography and the existing organizatoin site.
+            At this stage I started collecting icons and additional pictures from stock photography and the existing organizatoin site.
             </p>
             <h5>Mockups</h5>
             <p>I applied colors, pictues, and icons on the layout to create mockups. Once it was finalized, the pages were inported into InVision to set up the clickable prototype.<br><br>Examples are shown below.</p>
@@ -380,6 +390,66 @@
     
 </section>  
      
+<!-- Color Mockup pics-->       
+<section class="row about-mains about-pic-four">
+    <div class="mittsu col-md-3">
+        <div class="wf-ind">            
+            <img src="images/1.0_HOME_mock.png" class="wf-upper"> 
+            <img src="images/2.1_ABOUT_mock.png">
+        </div>
+    </div>
+    
+    <div class="mittsu col-md-3">
+        <div class="wf-ind">            
+            <img src="images/3.0_OURDOGS_mock.png" class="wf-upper"> 
+            <img src="images/3.1_AVAILABLEDOGS_mock.png">
+        </div>
+    </div>
+
+    <div class="mittsu col-md-3">
+        <div class="wf-ind">            
+            <img src="images/4.0_GET_INVOLVED_mock.png" class="wf-upper"> 
+            <img src="images/4.1_VOLUNTEER_mock.png">
+        </div>
+    </div>
+    
+    <div class="mittsu col-md-3">
+        <div class="wf-ind">            
+            <img src="images/6.0_SUCCESS_STORIES_mock.png" class="wf-upper"> 
+            <img src="images/6.1_INDIVIDUAL_DOG_Success_Stories_mock.png">
+        </div>
+    </div>
+<!-- 2nd -->
+    <div class="mittsu col-md-3">
+        <div class="wf-ind">            
+            <img src="images/2.1_ABOUT_mock.png" class="wf-upper"> 
+            <img src="images/3.1.1_INDIVIDUAL_DOG_Listing_mock.png">
+        </div>
+    </div>
+    
+    <div class="mittsu col-md-3">
+        <div class="wf-ind">            
+            <img src="images/4.2_FOSTER_mock.png" class="wf-upper"> 
+            <img src="images/7.0_RESOURCES_mock.png">
+        </div>
+    </div>
+
+    <div class="mittsu col-md-3">
+        <div class="wf-ind">            
+            <img src="images/3.4_ADOPTION_mock.png" class="wf-upper"> 
+            <img src="images/8.0_DONATE_mock.png">
+        </div>
+    </div>
+    
+    <div class="mittsu col-md-3">
+        <div class="wf-ind">            
+            <img src="images/2.4_CONTACTUS_mock.png" class="wf-upper"> 
+            <img src="images/10.0_NEWS_mock.png">
+        </div>
+    </div>
+    
+</section>  
+           
 <!--Branding text -->
 <section class="about-mains about-txt">
     <div class="row">
@@ -392,7 +462,7 @@
             <p>The site featured the variety of pictures and it was important to enhance them, so monochromatic tones of black, white and gray were selected as main colors. For highlights, I picked orange (for German Shepherd dog's amber eyes), muted green (for grasses they are running on), and brown (for their coat color). </p>
             
             <h5>Typefaces</h5>
-            <p>I selected Catamaran typefaces. It was important for the site to be approachable to attract viewers but I wanted to avoid it to look too cute as the organization specialized in the breed that was often associated with low enforcement and military organizations  (coinsidentally many of volunteers and adopters have such backgrounds).<br>So I researched websites of police departments and military organizations such as US Army, SFPD, and FBI, and concluded that an appropriate choice would be sans-serif that was not too round. Catamaran fitted those criteria while it did not look too office-y with less rigid numerics. </p>
+            <p>I selected Catamaran typefaces. It was important for the site to be approachable to attract viewers but I wanted to avoid it to look too cute as the organization specialized in the breed that was often associated with low enforcement agencies and military organizations  (coinsidentally many of volunteers and adopters have such backgrounds).<br>So I researched websites of police departments and military organizations such as US Army, SFPD, and FBI, and concluded that an appropriate choice would be sans-serif that was not too round. Catamaran fitted those criteria while it did not look too standard or office-y with its slanted corners and non-generic looking numbers and symbols (as in "&" mark).  </p>
 
         </div>
         <div class="col-md-1"></div>
@@ -412,7 +482,7 @@
         <div class="col-md-1"></div>
         <div class="col-md-10">
             <h3 class="section-title">Conclusions</h3>
-            <p><br>I am an active volunteer member of the organization and the project is near and dear to me. <br><br>Going into the project the challenge I expected to happen was a reorganization of existing information as the site contained quite a lot. Another challenge I thought of was how to create an effective website for multiple user groups with different needs (adopter, prospect, and active volunteer). But adhering to the UX/UI processes kept me on course to divide and conquer each step (thank you personas user flows and sitemaps!). <br><br>The curveball the project threw at me was how tricky it was to come up with 50+ icons that were appropriate for each category yet clearly different from each other. I was glad that I had gone through this process as it gave me an opportunity to examine each category from different angles to come up with the icons that felt right. <br><br>The lesson I've known but have re-learned during the project was the importance of a solid foundation. By putting time and effort to build the accurate-as-possible wireframes and mockups in at least a few different options, it is much easier to work on more details in prototype and coding stage.<br><br>One thing I would change if I had more time: I would've built the complete clickable prototype and the actual website for every page in the site.   </p>
+            <p><br>Going into the project the challenge I expected to happen was a reorganization of existing information as the site contained quite a lot. Another challenge I thought of was how to create an effective website for multiple user groups with different needs (adopter, prospect, and active volunteer). But adhering to the UX/UI processes kept me on course to divide and conquer each step (thank you personas user flows and sitemaps!). <br><br>The curveball the project threw at me was how tricky it was to come up with 50+ icons that were appropriate for each category yet clearly different from each other. I was glad that I had gone through this process as it gave me an opportunity to examine each category from different angles to come up with the icons that felt right. <br><br>The lesson I've known but have re-learned during the project was the importance of a solid foundation. By putting time and effort to build the accurate-as-possible wireframes and mockups in at least a few different options, it is much easier to work on more details in prototype and coding stage.<br><br>One thing I would change if I had more time: I would've built the complete clickable prototype and the actual website for every page in the site.   </p>
         </div>
         <div class="col-md-1"></div>
     </div>
