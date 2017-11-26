@@ -1,6 +1,6 @@
 .contact-box {
     position: relative;
-    height: auto;
+    height: 90vh;
     background-image: url(../images/Contact_indigo.jpg) ;
     background-repeat: no-repeat;
     background-position: center right;
@@ -32,4 +32,14 @@ text-align: center;
 
 .btn-size {
     min-width: 240px;
+}
+
+.myfooter {
+        position: fixed;
+    background-color: #333333;
+    padding: 1.2rem;
+    overflow: auto;
+    z-index: 1;
+    bottom: 0;
+
 }
