@@ -302,7 +302,7 @@ nav ul li {
     position: relative;
     width: 100vw;
     min-height: 400px;
-    background-image: url(../images/proj_pic_blocjams.png);
+    background-image: url(../images/cs_placeholder.png);
     background-color: blue;
     background-repeat: no-repeat;
     background-position: center center;
@@ -316,7 +316,7 @@ nav ul li {
     padding: 15px 0; 
     background-color: rgba(111, 89, 126, 0.75);
     text-align: left;
-        color: white;
+    color: white;
 }
 
 .elv-container {
