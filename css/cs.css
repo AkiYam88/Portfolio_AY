@@ -6,10 +6,6 @@
     background-color: #ffffff;
 }
 
-.about-txt {
-    padding: 3%;
-}
-
 .mydivider {
     border-top-style: solid;
     border-top-width: thin;
@@ -28,6 +24,7 @@
 .col-md-10{
     position: center;
     overflow: auto;
+    max-width: 950px;
 
 }
 
@@ -36,19 +33,26 @@
     list-style-type:square;
 }
 
-
+.about-text-gray {
+    background-image: linear-gradient(45deg, #E6E7E8 0%, #D1D3D4 100%);
+}
 
 .about-pic {
     background-image: linear-gradient(45deg, #E6E7E8 0%, #D1D3D4 100%);
     padding: 0;
 }
+
+.about-pic-color{
+    background-image: linear-gradient(135deg, #94cbd1 0%, #e6e7e8 100%);
+}
+
 .about-pic-two {
     background-image: linear-gradient(45deg, #D1D3D4 0%, #E6E7E8 100%);
     padding: 0 10%;
 }
 
 .about-pic-three {
-    background-image: linear-gradient(45deg, #E6E7E8 0%, #D1D3D4 100%);
+    background-color: #e6e7e8;
     padding: 0 10%;
 }
 
@@ -70,6 +74,10 @@
 .pic-left{
     text-align: left;
     padding: 20px 10px;
+}
+
+.cs-haikei {
+    background-color: #e6e7e8;
 }
 
 .cs-storyandflow{
@@ -125,7 +133,12 @@
 .cs-survey-numbers{
     text-align: center;
     font-size: 40px;
+    font-weight: 500;
+    color: #0F5474;
     margin: 0;
+    border-bottom: solid;
+    border-bottom-width: thin;
+    
 }
 
 .cs-survey{
@@ -168,4 +181,15 @@
 
 .white{
     background-color: #ffffff;
+}
+
+.statscolumn {
+    max-width: 1000px;
+}
+
+.mag-to-link{
+    position: absolute;
+    top: 0;
+    right: 20px;
+    color: #939598;
 }

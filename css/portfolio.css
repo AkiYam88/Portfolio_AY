@@ -3,16 +3,28 @@
 .portfolio-box {
     position: relative;
     height: auto;
-    background-image: url(../images/Indigo_short.jpg) ;
+    background-image: linear-gradient(45deg, #0f5474 0%, #2183a5 100%);
+    background-color: #0f5474;
     background-repeat: no-repeat;
     background-position: center right;
     background-size: cover;
     overflow: auto;
     padding: 30px 0 30px;
     z-index: auto;
+    color: #ffffff;
 }
 
 /*uxui*/
+
+.row .futatsu {
+    position: relative;
+    overflow: auto;
+    padding: 0;
+}
+
+.half-box{
+    padding-top: 7%;
+}
 
 .project-box-p .project-one {
     position: relative;
@@ -25,20 +37,6 @@
     overflow: auto;
 }
 
-.row .futatsu {
-    position: relative;
-    overflow: auto;
-    padding: 0;
-}
-
-.project-title-one {
-    position: relative;
-    margin: 40px 0;
-    padding: 15px 0; 
-    background-color: rgba(247, 179, 52, 0.75);
-    text-align: left;
-    color: white;
-}
 
 .project-box-p .project-two {
     position: relative;
@@ -51,16 +49,6 @@
     overflow: auto;
 }
 
-.project-title-two {
-    position: relative;
-    margin: 40px 0;
-    padding: 15px 0; 
-    background-color: rgba(112, 171, 229, 0.75);
-    text-align: left;
-    color: white;
-}
-
-
 .project-box-p .project-three {
     position: relative;
     width: 100%;
@@ -70,15 +58,6 @@
     background-position: center left;
     background-size: cover;
     overflow: auto;
-}
-
-.project-title-three {
-    position: relative;
-    margin: 40px 0;
-    padding: 15px 0; 
-    background-color: rgba(51, 51, 51, 0.75);
-    text-align: left;
-   color: white;
 }
 
 .project-box-p .project-four {
@@ -92,15 +71,6 @@
     overflow: auto;
 }
 
-.project-title-four {
-    position: relative;
-    margin: 40px 0;
-    padding: 15px 0; 
-    background-color: rgba(111, 89, 126, 0.75);
-    text-align: left;
-        color: white;
-}
-
 /*PRINTS*/
 
 .pr-hero{
@@ -109,20 +79,16 @@
     z-index: 2;
 }
 
-.project-title-five {
-    position: absolute;
-    margin: 40px 0;
-    padding: 15px 0; 
-    background-color: rgba(84, 136, 70, 0.75);
-    text-align: left;
-    color: white;
-    z-index: 3;
+.pr-hero2{
+    height: auto;
+    max-width: 100%;
+    z-index: 2;
 }
 
 .project-box-p .project-five{
     position: relative;
     width: 100%;
-    min-height: 400px;
+    height: 400px;
     background-color: #a6bea0;
     background-repeat: no-repeat;
     background-position: center center;
@@ -131,14 +97,23 @@
     z-index: 1;
 }
 
-.project-title-six {
+.project-block-five {
     position: absolute;
-    margin: 40px 0;
-    padding: 15px 0; 
-    background-color: rgba(228, 214, 59, 0.75);
-    text-align: left;
-    color: white;
-    z-index: 3;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgba(84, 136, 70, 0.95);
+    padding-top: 9%;
+    text-align: center;
+}
+
+.project-five:hover .project-block-five {
+  opacity: 1;
 }
 
 .project-box-p .project-six {
@@ -153,14 +128,23 @@
     z-index: 1;
 }
 
-.project-title-seven {
+.project-block-six {
     position: absolute;
-    margin: 40px 0;
-    padding: 15px 0; 
-    background-color: rgba(0, 120, 174, 0.75);
-    text-align: left;
-    color: white;
-    z-index: 3;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgba(216, 205, 102, 0.95);
+    padding-top: 9%;
+    text-align: center;
+}
+
+.project-six:hover .project-block-six {
+  opacity: 1;
 }
 
 .project-box-p .project-seven {
@@ -175,16 +159,25 @@
     z-index: 1;
 }
 
-.project-title-eight {
+.project-block-seven {
     position: absolute;
-    margin: 40px 0;
-    padding: 15px 0; 
-    background-color: rgba(208, 164, 120, 0.75);
-    text-align: left;
-    color: white;
-    z-index: 3;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgba(0, 120, 174, 0.95);
+    padding-top: 9%;
+    text-align: center;
 }
 
+.project-seven:hover .project-block-seven {
+  opacity: 1;
+}
+    
 .project-box-p .project-eight {
     position: relative;
     width: 100%;
@@ -195,5 +188,24 @@
     background-size: cover;
     overflow: auto;
     z-index: 1;
+}
+
+.project-block-eight {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgba(208, 164, 120, 0.95);
+    padding-top: 9%;
+    text-align: center;
+}
+
+.project-eight:hover .project-block-eight {
+  opacity: 1;
 }
 

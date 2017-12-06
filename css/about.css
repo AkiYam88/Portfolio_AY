@@ -2,14 +2,16 @@
     position: relative;
     min-height: 500px;
     height:auto;
+    /*
     background-image: url(../images/Contact_indigo.jpg) ;
+    */
     background-repeat: no-repeat;
     background-position: center right;
     background-size: cover;
     overflow: auto;
     padding-top: 20px;
-    z-index: auto;
-    
+    z-index: auto; 
+    text-align: center;
     }
 
 .flat{
@@ -22,30 +24,30 @@
     margin: 0 10%;
 }
 
-.areaone{
-    margin-left: 10%;
-    min-height: 360px;
-    margin-bottom: 20px;
-    max-width: 400px;
-    height: auto;
-}
-
 .namegap{
     text-align: center;
     padding-bottom: 10px;
     margin: 0;
+    font-weight:400;
+    color: #0F5474;
 }
 
-.ab-ind{
+.about-sm {
+    margin: 5px 0 5px;
+    font-size: 1.2rem;
     text-align: center;
-    margin: 0;
 }
 
+.about-lg {
+    font-style: italic;
+    float: none;
+    margin: 0;
+    font-weight: 400;
+    font-size: 1.5rem;
+}
 
-.areatwo{
-    padding: 20px 0 0 25px;
-    margin-bottom: 15px;
-    height: auto;
+.sectionend{
+    padding-bottom: 15px;   
 }
 
 .hidari{
@@ -55,8 +57,8 @@
 
 .kao{
     width:95%;
-    max-width:400px;
-    padding: 0;
+    max-width:500px;
+    padding: 0 0 15px 0;
 }
 
 .migi{
@@ -101,17 +103,6 @@
   opacity:0;
 }
 
-.about-sm {
-    margin: 5px 0 5px;
-    font-size: 1.2rem;
-}
-
-.about-lg {
-    font-style: italic;
-    float: none;
-    margin: 0;
-    font-weight: 400;
-}
 
 .row .about-btns {
     background-color: #ffffff;
