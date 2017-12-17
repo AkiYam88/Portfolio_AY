@@ -44,7 +44,7 @@ h1, h2 {
 
 
 h1 {
-    font-size: 8.2vw;
+    font-size: 5rem;
     padding-bottom: 15%;
 
 }
@@ -98,6 +98,13 @@ h6{
     padding-top: 20px;
     text-align: center;
 }
+
+.rp{
+    font-size: 2.1rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+
 
 p {
     color: #333333;
@@ -180,7 +187,7 @@ nav ul li {
 .hero-box{
     position: relative;
     width: 100vw;
-    height: 100vh;
+    height: 50vh;
     background-image: linear-gradient(45deg, #0f5474 0%, #2183a5 100%);
     /*background-image: url(../images/Home_indigo2.jpg);*/
     background-repeat: no-repeat;
@@ -272,6 +279,13 @@ nav ul li {
     background-image: linear-gradient(45deg, #E6E7E8 0%, #D1D3D4 100%);
 }
 
+.jouge{
+  position: relative;
+  top: 47%;
+  -webkit-transform: translateY(-47%); /* Safari用 */
+  transform: translateY(-47%);
+}
+
 .project-box {
 }
 
@@ -298,7 +312,7 @@ nav ul li {
     opacity: 0;
     transition: .5s ease;
     background-color: rgba(247, 179, 52, 0.95);
-    padding-top: 9%;
+    padding-top: 0%;
     text-align: center;
 }
 
@@ -335,7 +349,7 @@ nav ul li {
     opacity: 0;
     transition: .5s ease;
     background-color: rgba(112, 171, 229, 0.95);
-    padding-top: 9%;
+    padding-top: 0%;
     text-align: center;
 }
 
@@ -366,7 +380,7 @@ nav ul li {
     opacity: 0;
     transition: .5s ease;
     background-color: rgba(27, 114, 109, 0.95);
-    padding-top: 9%;
+    padding-top: 0%;
     text-align: center;
 }
 
@@ -575,3 +589,9 @@ text-align: center;
 @media (min-width: 1024px) {
 
  }
+
+/*表示　非表示*/
+
+@media screen and (max-width: 480px){
+.none {display:none}
+}
